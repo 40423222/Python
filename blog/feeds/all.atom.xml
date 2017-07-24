@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-07-24T13:00:00+08:00</updated><entry><title>第2課 - 表達式，數據類型和變量</title><link href="./Lesson%202.html" rel="alternate"></link><published>2017-07-24T13:00:00+08:00</published><updated>2017-07-24T13:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-24:./Lesson 2.html</id><summary type="html">&lt;p&gt;參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter1/"&gt;https://automatetheboringstuff.com/chapter1/&lt;/a&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=7qHMXu99d88"&gt;https://www.youtube.com/watch?v=7qHMXu99d88&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;h3&gt;第一步:&lt;/h3&gt;
+&lt;p&gt;在開始使用Python前,先&lt;a href="https://www.python.org/"&gt;&lt;span style="background-color: #ffff00"&gt;點這&lt;/span&gt;&lt;/a&gt;免費下載Python&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;開啟IDLE:&lt;/h3&gt;
+&lt;p&gt;點擊電腦左下角,就會有收尋功能,輸入Python就可以找到IDLE&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Expression(顯示) = Values(值) + Operators(運算符號)&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-2/Expression.png" width="800"&gt;&lt;/p&gt;
+&lt;h3&gt;Order of Operations(執行順序)&lt;/h3&gt;
+&lt;p&gt;1.Parentheses(括號)
+&lt;br&gt;
+2.Multiplication(乘) / Division(除)
+&lt;br&gt;
+3.Addition(加) / Subtraction(減)&lt;/p&gt;
+&lt;h3&gt;Data Types(數據類型):&lt;/h3&gt;
+&lt;h4&gt;integers "ints"(整數)&lt;/h4&gt;
+&lt;p&gt;Ex: 1 or 2 or 3&lt;/p&gt;
+&lt;h4&gt;Floating point "floats"(浮點數)&lt;/h4&gt;
+&lt;p&gt;Ex: 0.123 or 1.321
+&lt;br&gt;
+說明: 主要差別,有小數點(floats)跟沒小數點(ints)&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;String Concatenation(字串連接):&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-2/String.png" width="800"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Variables(變數):&lt;/h3&gt;
+&lt;p&gt;Assignment Statement: spam=42　說明: 輸入spam將會顯示42
+&lt;img src="./../data/L-2/Variables.png" width="800"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Recap(複習):&lt;/h3&gt;
+&lt;p&gt;IDLE is an editor
+&lt;br&gt;
+Interactice Shell (&amp;gt;&amp;gt;&amp;gt;) &amp;amp; File Editor
+&lt;br&gt;
+Int, Float, String
+&lt;br&gt;
+'Hello World'
+&lt;br&gt;
+spam = 42
+&lt;br&gt;
+spam + 1&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 2"></category></entry></feed>
