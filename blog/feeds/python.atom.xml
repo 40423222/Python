@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-07-24T13:00:00+08:00</updated><entry><title>第2課 - 表達式，數據類型和變量</title><link href="./Lesson%202.html" rel="alternate"></link><published>2017-07-24T13:00:00+08:00</published><updated>2017-07-24T13:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-24:./Lesson 2.html</id><summary type="html">&lt;p&gt;參考資訊:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-07-25T02:25:00+08:00</updated><entry><title>第3課 - 你的第一個程式</title><link href="./Lesson%203.html" rel="alternate"></link><published>2017-07-25T02:25:00+08:00</published><updated>2017-07-25T02:25:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-25:./Lesson 3.html</id><summary type="html">&lt;p&gt;參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter1/"&gt;https://automatetheboringstuff.com/chapter1/&lt;/a&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=buMTH6ICnqkhttps://www.youtube.com/watch?v=buMTH6ICnqk"&gt;https://www.youtube.com/watch?v=buMTH6ICnqk&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;h3&gt;writing Our first program(寫出我們第一個程式):&lt;/h3&gt;
+&lt;p&gt;開起New File
+&lt;br&gt;
+&lt;img src="./../data/L-3/New File.png" width="800"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;建立程式:&lt;/h3&gt;
+&lt;p&gt;建立完成,Save後,點擊Run/Run Moodule,來啟動程式
+&lt;br&gt;
+&lt;img src="./../data/L-3/hello.png" width="800"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;執行程式:&lt;/h3&gt;
+&lt;p&gt;黑色字體,是使用者要輸入的資訊.
+如圖,ABCD和18
+&lt;br&gt;
+&lt;img src="./../data/L-3/hello-E.png" width="800"&gt;
+&lt;br&gt;
+執行完就會自跳出程式&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;print( ):&lt;/h3&gt;
+&lt;p&gt;輸入在( )內的字串,會顯示在Shell
+&lt;img src="./../data/L-3/print.png" width="800"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;input( ):&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-3/input.png" width="800"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;int( ) and str( ):&lt;/h3&gt;
+&lt;p&gt;int( ): 將&lt;span style="background-color: #ffff00"&gt;有字串的數字&lt;/span&gt;轉為整數,例如: int('123') = 123,而不是'123',int(12.123) = 12,int(12.123+1) = 13
+&lt;br&gt;
+str( ): 將&lt;span style="background-color: #ffff00"&gt;沒有字串的數字&lt;/span&gt;轉為字串,例如: str(123) = '123',而不是123
+&lt;img src="./../data/L-3/int and str.png" width="800"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;len( ):&lt;/h3&gt;
+&lt;p&gt;顯示有幾個字串,例如: len('123Abc') = 6
+&lt;br&gt;
+&lt;img src="./../data/L-3/len.png" width="800"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 3"></category></entry><entry><title>第2課 - 表達式，數據類型和變量</title><link href="./Lesson%202.html" rel="alternate"></link><published>2017-07-24T13:00:00+08:00</published><updated>2017-07-24T13:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-24:./Lesson 2.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter1/"&gt;https://automatetheboringstuff.com/chapter1/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=7qHMXu99d88"&gt;https://www.youtube.com/watch?v=7qHMXu99d88&lt;/a&gt;&lt;/p&gt;
 
