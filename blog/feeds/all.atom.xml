@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-07-26T16:26:00+08:00</updated><entry><title>第4課 - 比較跟布林運算符號</title><link href="./Lesson%204.html" rel="alternate"></link><published>2017-07-26T16:26:00+08:00</published><updated>2017-07-26T16:26:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-26:./Lesson 4.html</id><summary type="html">&lt;p&gt;參考資訊:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-07-29T23:07:00+08:00</updated><entry><title>第5課 - if, elif, and else</title><link href="./Lesson%205.html" rel="alternate"></link><published>2017-07-29T23:07:00+08:00</published><updated>2017-07-29T23:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-29:./Lesson 5.html</id><summary type="html">&lt;p&gt;參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=lWeCgEbk-Ro&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=lWeCgEbk-Ro&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;body background="./../data/L-5/img/木板.png"&gt;
+&lt;hr&gt;&lt;/p&gt;
+&lt;h3&gt;說明:&lt;/h3&gt;
+&lt;p&gt;if (變數 符號 條件): 沒迴圈,單純的判斷
+&lt;br&gt;
+if 起始頭,符合條件執行
+&lt;br&gt;
+elif 要設定條件,放在開頭以後(放置在if後方,else前方)
+&lt;br&gt;
+else 到這直接執行,不需要條件(放置在尾端)
+&lt;br&gt;
+注意: 符合條件,就會接結束if&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;if:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-5/img/if.png" width="600" hspace="100"&gt;
+&lt;br&gt;
+&lt;img src="./../data/L-5/img/if-flowchart.png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;if-else:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-5/img/if-else.png" width="800"&gt;
+&lt;br&gt;
+&lt;img src="./../data/L-5/img/if-else-flowchart.png" width="800"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;if-elif-else:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-5/img/if-elif-else.png" width="800"&gt;
+&lt;br&gt;
+&lt;img src="./../data/L-5/img/if-elif-else-flowchart.png" width="800"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 5"></category></entry><entry><title>第4課 - 比較跟布林運算符號</title><link href="./Lesson%204.html" rel="alternate"></link><published>2017-07-26T16:26:00+08:00</published><updated>2017-07-26T16:26:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-26:./Lesson 4.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=4XA9CKJJbr4&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=4XA9CKJJbr4&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
 
@@ -55,7 +89,7 @@
 &lt;hr&gt;
 
 &lt;h3&gt;if-改:&lt;/h3&gt;
-&lt;p&gt;可以在Shell介面輸入程式碼
+&lt;p&gt;可以在Shell介面輸入帳密　註解:帳號可以隨便取,密碼一定要輸入正確 
 &lt;img src="./../data/L-4/if-change.png" width="800"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 4"></category></entry><entry><title>第3課 - 你的第一個程式</title><link href="./Lesson%203.html" rel="alternate"></link><published>2017-07-25T02:25:00+08:00</published><updated>2017-07-25T02:25:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-25:./Lesson 3.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter1/"&gt;https://automatetheboringstuff.com/chapter1/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=buMTH6ICnqkhttps://www.youtube.com/watch?v=buMTH6ICnqk"&gt;https://www.youtube.com/watch?v=buMTH6ICnqk&lt;/a&gt;&lt;/p&gt;

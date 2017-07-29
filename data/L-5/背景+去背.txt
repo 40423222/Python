@@ -1,0 +1,8 @@
+HTML背景使用: 
+<body background="./../data/L-5/1234.png">
+
+
+圖片去背:
+免費線上網站: https://burner.bonanza.com/
+使用ppt
+使用小畫家(注意: 圖片要另外存取)

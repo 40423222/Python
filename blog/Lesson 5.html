@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>第3課 - 你的第一個程式 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>第5課 - if, elif, and else - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,21 +10,21 @@
 
 
 
-<link rel="canonical" href="./Lesson 3.html">
+<link rel="canonical" href="./Lesson 5.html">
 
         <meta name="author" content="40423222" />
-        <meta name="keywords" content="notes,Lesson 3" />
-        <meta name="description" content="參考資訊: 網站: https://automatetheboringstuff.com/chapter1/ 影片: https://www.youtube.com/watch?v=buMTH6ICnqk" />
+        <meta name="keywords" content="notes,Lesson 5" />
+        <meta name="description" content="參考資訊: 網站: https://automatetheboringstuff.com/chapter2/ 影片: https://www.youtube.com/watch?v=lWeCgEbk-Ro&amp;feature=youtu.be" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="第3課 - 你的第一個程式"/>
-        <meta property="og:url" content="./Lesson 3.html"/>
-        <meta property="og:description" content="參考資訊: 網站: https://automatetheboringstuff.com/chapter1/ 影片: https://www.youtube.com/watch?v=buMTH6ICnqk"/>
-        <meta property="article:published_time" content="2017-07-25" />
+        <meta property="og:title" content="第5課 - if, elif, and else"/>
+        <meta property="og:url" content="./Lesson 5.html"/>
+        <meta property="og:description" content="參考資訊: 網站: https://automatetheboringstuff.com/chapter2/ 影片: https://www.youtube.com/watch?v=lWeCgEbk-Ro&amp;feature=youtu.be"/>
+        <meta property="article:published_time" content="2017-07-29" />
             <meta property="article:section" content="Python" />
             <meta property="article:tag" content="notes" />
-            <meta property="article:tag" content="Lesson 3" />
+            <meta property="article:tag" content="Lesson 5" />
             <meta property="article:author" content="40423222" />
 
 
@@ -132,10 +132,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./Lesson 3.html"
+                    <a href="./Lesson 5.html"
                        rel="bookmark"
-                       title="Permalink to 第3課 - 你的第一個程式">
-                        第3課 - 你的第一個程式
+                       title="Permalink to 第5課 - if, elif, and else">
+                        第5課 - if, elif, and else
                     </a>
                 </h1>
             </header>
@@ -145,7 +145,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-07-25T02:25:00+08:00"> Tue 25 July 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-07-29T23:07:00+08:00"> Sat 29 July 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
@@ -155,58 +155,45 @@
 <span class="label label-default">Tags</span>
 	<a href="./tag/notes.html">notes</a>
         /
-	<a href="./tag/lesson-3.html">Lesson 3</a>
+	<a href="./tag/lesson-5.html">Lesson 5</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
                 <p>參考資訊:
-網站: <a href="https://automatetheboringstuff.com/chapter1/">https://automatetheboringstuff.com/chapter1/</a>
-影片: <a href="https://www.youtube.com/watch?v=buMTH6ICnqkhttps://www.youtube.com/watch?v=buMTH6ICnqk">https://www.youtube.com/watch?v=buMTH6ICnqk</a></p>
+網站: <a href="https://automatetheboringstuff.com/chapter2/">https://automatetheboringstuff.com/chapter2/</a>
+影片: <a href="https://www.youtube.com/watch?v=lWeCgEbk-Ro&feature=youtu.be">https://www.youtube.com/watch?v=lWeCgEbk-Ro&amp;feature=youtu.be</a></p>
 
 
-<hr>
-
-<h3>writing Our first program(寫出我們第一個程式):</h3>
-<p>開起New File
+<p><body background="./../data/L-5/img/木板.png">
+<hr></p>
+<h3>說明:</h3>
+<p>if (變數 符號 條件): 沒迴圈,單純的判斷
 <br>
-<img src="./../data/L-3/New File.png" width="800"></p>
-<hr>
-
-<h3>建立程式:</h3>
-<p>建立完成,Save後,點擊Run/Run Moodule,來啟動程式
+if 起始頭,符合條件執行
 <br>
-<img src="./../data/L-3/hello.png" width="800"></p>
-<hr>
-
-<h3>執行程式:</h3>
-<p>黑色字體,是使用者要輸入的資訊.
-如圖,ABCD和18
+elif 要設定條件,放在開頭以後(放置在if後方,else前方)
 <br>
-<img src="./../data/L-3/hello-E.png" width="800">
+else 到這直接執行,不需要條件(放置在尾端)
 <br>
-執行完就會自跳出程式</p>
+注意: 符合條件,就會接結束if</p>
 <hr>
 
-<h3>print( ):</h3>
-<p>輸入在( )內的字串,會顯示在Shell
-<img src="./../data/L-3/print.png" width="800"></p>
-<hr>
-
-<h3>input( ):</h3>
-<p><img src="./../data/L-3/input.png" width="800"></p>
-<hr>
-
-<h3>int( ) and str( ):</h3>
-<p>int( ): 將<span style="background-color: #ffff00">有字串的數字</span>轉為整數,例如: int('123') = 123,而不是'123',int(12.123) = 12,int(12.123+1) = 13
+<h3>if:</h3>
+<p><img src="./../data/L-5/img/if.png" width="600" hspace="100">
 <br>
-str( ): 將<span style="background-color: #ffff00">沒有字串的數字</span>轉為字串,例如: str(123) = '123',而不是123
-<img src="./../data/L-3/int and str.png" width="800"></p>
+<img src="./../data/L-5/img/if-flowchart.png" width="600" hspace="100"></p>
 <hr>
 
-<h3>len( ):</h3>
-<p>顯示有幾個字串,例如: len('123Abc') = 6
+<h3>if-else:</h3>
+<p><img src="./../data/L-5/img/if-else.png" width="800">
 <br>
-<img src="./../data/L-3/len.png" width="800"></p>
+<img src="./../data/L-5/img/if-else-flowchart.png" width="800"></p>
+<hr>
+
+<h3>if-elif-else:</h3>
+<p><img src="./../data/L-5/img/if-elif-else.png" width="800">
+<br>
+<img src="./../data/L-5/img/if-elif-else-flowchart.png" width="800"></p>
             </div>
             <!-- /.entry-content -->
         </article>

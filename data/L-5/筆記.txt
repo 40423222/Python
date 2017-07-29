@@ -1,0 +1,25 @@
+if (變數 符號 條件):     說明: 沒迴圈,單純的判斷
+if 開頭,符合條件值型
+else 到這直接執行(不需要條件)
+elif 要符合條件,放在開頭以後
+
+要是符合條件,就會直接結束
+
+不知道有甚麼方法,可以連接到下個if,繼續做判斷: 加上while使用
+
+
+while 變數 符號 次數:   說明: 有迴圈(就像Arduino的for迴圈)
+
+while跟if的最大差別,就在於迴圈
+while: 沒達到條件,會不斷地重新執行,值到達成目標才結束
+if: 沒達到條件就結束
+
+break能跳出while迴圈(困在無線循環時,能使用在)
+
+name = ''                           # (1)
+while name != 'your name':          # (2)
+    print('Please type your name.')
+    name = input()                  # (3)
+    if name == '123':
+      break
+print('Thank you!')                 # (4)
