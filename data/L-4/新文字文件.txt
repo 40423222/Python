@@ -1,0 +1,132 @@
+Boolean Values(布林值)
+只有兩種結果True and False
+
+Comparison Operators(比對運算符號)
+==   Equal to
+
+!=    Not equal to
+
+<  Less than
+
+>   Greater than
+
+<=   Less than or equal to
+
+>=   Greater than or equal to
+做成表格
+
+最前面不能空格,符號不能分開
+
+
+
+
+
+<table border="5" width="100%" align="center">
+<tr>
+<td  style="text-align:center" bgcolor='#FFD78C' colspan="7">Comparison Operators(比對運算符號)</td>
+<td style="text-align:center" >Operators</td>
+<td style="text-align:center" >==</td>
+<td style="text-align:center" >!=</td>
+<td style="text-align:center" ><</td>
+<td style="text-align:center" >></td>
+<td style="text-align:center" ><=(要打特殊格式?)</td>
+<td style="text-align:center" >＞=</td>
+<tr>
+<td style="text-align:center" bgcolor='#FFD78C'>功能</td>
+<td style="text-align:center">相等</td>
+<td style="text-align:center">不相等</td>
+<td style="text-align:center">小於</td>
+<td style="text-align:center">大於</td>
+<td style="text-align:center">小於並想等</td>
+<td style="text-align:center">大於並相等</td>
+</table>
+
+
+
+
+
+
+
+
+Boolean Operators(布林運算符號)
+
+
+>>> True and True
+True
+>>> True and False
+False
+>>> False and True
+False
+>>> False and False
+False
+>>> True or True
+True
+>>> True or False
+True
+>>> False or True
+True
+>>> False or False
+False
+>>> not True
+False
+>>> not False
+True
+>>> (12 < 13) and (12 >= 12)
+True
+>>> (11 == 13) or (35 > 11)
+True
+
+
+
+
+<table border="5" width="100%" align="center">
+<tr>
+<td  style="text-align:center" bgcolor='#FFD78C' colspan="4">Boolean Operators(布林運算符號)</td>
+<tr>
+<td style="text-align:center">Operators</td>
+<td style="text-align:center">and</td>
+<td style="text-align:center">or</td>
+<td style="text-align:center">not</td>
+</table>
+
+
+
+
+
+錯誤:
+print('What is your name?')
+name = input()
+print('What is your password?')
+password = input()
+if name == Abcd: # 達成if後方的條件,才會執行在這if內的程式
+    print('Hello' + name)
+    if password == '1234':
+        print('歡迎登入')
+    else:
+        print('密碼錯誤')
+        #name == ABCD or
+
+
+修改:
+print('What is your name?')
+name = input()
+print('What is your password?')
+password = input()
+if name == name: # 達成if後方的條件,才會執行在這if內的程式
+    print('Hello ' + name)
+    if password == '1234':
+        print('歡迎登入')
+    else:
+        print('密碼錯誤')
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-07-29T23:07:00+08:00</updated><entry><title>第5課 - if, elif, and else</title><link href="./Lesson%205.html" rel="alternate"></link><published>2017-07-29T23:07:00+08:00</published><updated>2017-07-29T23:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-29:./Lesson 5.html</id><summary type="html">&lt;p&gt;參考資訊:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-07-31T14:16:00+08:00</updated><entry><title>第6課 - While Loops, break, and continue</title><link href="./Lesson%206.html" rel="alternate"></link><published>2017-07-31T14:16:00+08:00</published><updated>2017-07-31T14:16:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-31:./Lesson 6.html</id><summary type="html">&lt;p&gt;參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=885qKiiKisI&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=885qKiiKisI&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;h3&gt;說明:&lt;/h3&gt;
+&lt;p&gt;while (變數 符號 條件): 有迴圈(就像Arduino的for迴圈)
+注意: 符合條件就會跳出迴圈(不符合條件才會執行)&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;while-variable + 1:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-6/img/while-variable + 1.png" width="600" hspace="100"&gt;
+&lt;br&gt;
+&lt;img src="./../data/L-6/img/while-variable + 1-flowchart.png" width="550" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;while-0 to 10-else:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-6/img/while-0 to 10.png" width="600" hspace="100"&gt;
+&lt;br&gt;
+&lt;img src="./../data/L-6/img/while-0 to 10-flowchart.png" width="540" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;while-error:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-6/img/while-error.png" width="600" hspace="100"&gt;
+&lt;br&gt;
+&lt;img src="./../data/L-6/img/while-error-flowchart.png" width="540" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;while-break:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-6/img/while-break.png" width="600" hspace="100"&gt;
+&lt;br&gt;
+&lt;img src="./../data/L-6/img/while-break-flowchart.png" width="540" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;while-not stop:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-6/img/while-not stop.png" width="600" hspace="100"&gt;
+&lt;br&gt;
+&lt;img src="./../data/L-6/img/while-not stop-flowchart.png" width="540" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;while-continue:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-6/img/while-continue.png" width="600" hspace="100"&gt;
+&lt;br&gt;
+&lt;img src="./../data/L-6/img/while-continue-flowchart.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 6"></category></entry><entry><title>第5課 - if, elif, and else</title><link href="./Lesson%205.html" rel="alternate"></link><published>2017-07-29T23:07:00+08:00</published><updated>2017-07-29T23:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-29:./Lesson 5.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=lWeCgEbk-Ro&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=lWeCgEbk-Ro&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
 
