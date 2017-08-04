@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-08-04T18:39:00+08:00</updated><entry><title>第7課 - for Loops and range( )</title><link href="./Lesson%207.html" rel="alternate"></link><published>2017-08-04T18:39:00+08:00</published><updated>2017-08-04T18:39:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-04:./Lesson 7.html</id><summary type="html">&lt;p&gt;參考資訊:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-08-05T07:13:00+08:00</updated><entry><title>第8課 - import, sys.exit( ), random.randint( )</title><link href="./Lesson%208.html" rel="alternate"></link><published>2017-08-05T07:13:00+08:00</published><updated>2017-08-05T07:13:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-05:./Lesson 8.html</id><summary type="html">&lt;p&gt;參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=xJLj6fWfw6k&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=xJLj6fWfw6k&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;h3&gt;說明:&lt;/h3&gt;
+&lt;p&gt;import, random and sys
+&lt;ul&gt;
+&lt;li&gt;import:
+啟動模組
+&lt;ul&gt;
+&lt;li&gt;random模組
+&lt;ul&gt;
+&lt;li&gt;random.randint(起始值, 最大值):
+範圍亂數
+&lt;/ul&gt;
+&lt;li&gt;sys模組
+&lt;ul&gt;
+&lt;li&gt;sys.exit( ):
+強制退出&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;random.randint:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-8/img/random.randint.png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;sys.exit:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-8/img/sys.exit.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 8"></category></entry><entry><title>第7課 - for Loops and range( )</title><link href="./Lesson%207.html" rel="alternate"></link><published>2017-08-04T18:39:00+08:00</published><updated>2017-08-04T18:39:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-04:./Lesson 7.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=HFQGxh1jY3g&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=HFQGxh1jY3g&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
 
