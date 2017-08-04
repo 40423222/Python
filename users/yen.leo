@@ -50,6 +50,7 @@
 <v t="leo.20170726163226.1"><vh>@edit 第4課.md</vh></v>
 <v t="leo.20170729230541.1"><vh>@edit 第5課.md</vh></v>
 <v t="leo.20170731141520.1"><vh>@edit 第6課.md</vh></v>
+<v t="leo.20170804183726.1"><vh>@edit 第7課.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
