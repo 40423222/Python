@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-08-05T07:13:00+08:00</updated><entry><title>第8課 - import, sys.exit( ), random.randint( )</title><link href="./Lesson%208.html" rel="alternate"></link><published>2017-08-05T07:13:00+08:00</published><updated>2017-08-05T07:13:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-05:./Lesson 8.html</id><summary type="html">&lt;p&gt;參考資訊:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-08-07T16:07:00+08:00</updated><entry><title>第9課 - def and print( )</title><link href="./Lesson%209.html" rel="alternate"></link><published>2017-08-07T16:07:00+08:00</published><updated>2017-08-07T16:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-07:./Lesson 9.html</id><summary type="html">&lt;p&gt;參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=WB4hJJkfhLU&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=WB4hJJkfhLU&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;h3&gt;說明:&lt;/h3&gt;
+&lt;p&gt;def and print( )
+&lt;ul&gt;
+&lt;li&gt;主要內容:
+&lt;ul&gt;
+&lt;li&gt;def: 定義變數為程式
+&lt;li&gt;更詳細說明print( )
+&lt;/ul&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;def hello():&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-9/img/def hello().png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;def hello(name):&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-9/img/def hello(name).png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;def plus random:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-9/img/def plus random.png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;None:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-9/img/None.png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;print:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-9/img/print.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 9"></category></entry><entry><title>第8課 - import, sys.exit( ), random.randint( )</title><link href="./Lesson%208.html" rel="alternate"></link><published>2017-08-05T07:13:00+08:00</published><updated>2017-08-05T07:13:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-05:./Lesson 8.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=xJLj6fWfw6k&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=xJLj6fWfw6k&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
 
