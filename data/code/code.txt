@@ -2,10 +2,25 @@ print()                          顯示在Shell視窗
 len()                            字體的數量
 input()                          在Shell輸入
 break                            強制結束
+
+變數範圍
+global name                      定義這name為全局變數
+name = variables                 name是 ....
+
+定義:
+def name():
+
+模組:
 import sys                       啟動sys
 sys.exit()                       強制結束
 import random                    啟動random
 random.randint(起始值, 最大值)   範圍亂數
+
+數列:
 for range()                      產生數列
-if :                             條件判斷
+
+條件判斷
+if : 
+                            條件判斷
+迴圈:
 while :                          迴圈

@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-08-07T16:07:00+08:00</updated><entry><title>第9課 - def and print( )</title><link href="./Lesson%209.html" rel="alternate"></link><published>2017-08-07T16:07:00+08:00</published><updated>2017-08-07T16:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-07:./Lesson 9.html</id><summary type="html">&lt;p&gt;參考資訊:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-08-08T17:34:00+08:00</updated><entry><title>第10課 - Global Scope and Local Scope</title><link href="./Lesson%2010.html" rel="alternate"></link><published>2017-08-08T17:34:00+08:00</published><updated>2017-08-08T17:34:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-08:./Lesson 10.html</id><summary type="html">&lt;p&gt;參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=M-CoVBK_bLE&amp;feature"&gt;https://www.youtube.com/watch?v=M-CoVBK_bLE&amp;amp;feature&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;!-- HTML的註解--&gt;
+
+&lt;h3&gt;說明:&lt;/h3&gt;
+&lt;p&gt;Global and Local
+&lt;ul&gt;
+&lt;li&gt;Local Variables(局部變量)
+&lt;ul&gt;
+&lt;li&gt;使用在def內的變量
+&lt;/ul&gt;
+&lt;pre&gt;例:&lt;br&gt;   def spam():&lt;br&gt;       eggs = 10 # local variables&lt;/pre&gt;
+&lt;li&gt;Global Variables(全局變量)
+&lt;ul&gt;
+&lt;li&gt;沒參數命名,也沒使用代號,直接定義
+&lt;/ul&gt;
+&lt;pre&gt;例:&lt;br&gt;   eggs = 10 # global variables&lt;/pre&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;def and print:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-10/img/def and print.png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;def in def and print:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-10/img/def in def and print.png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;global def:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-10/img/global def.png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;global variables:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-10/img/global variables.png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;same name LG variables:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-10/img/same name LG variables.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 10"></category></entry><entry><title>第9課 - def and print( )</title><link href="./Lesson%209.html" rel="alternate"></link><published>2017-08-07T16:07:00+08:00</published><updated>2017-08-07T16:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-07:./Lesson 9.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=WB4hJJkfhLU&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=WB4hJJkfhLU&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
 
