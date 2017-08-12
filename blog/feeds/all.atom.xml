@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-08-08T17:34:00+08:00</updated><entry><title>第10課 - Global Scope and Local Scope</title><link href="./Lesson%2010.html" rel="alternate"></link><published>2017-08-08T17:34:00+08:00</published><updated>2017-08-08T17:34:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-08:./Lesson 10.html</id><summary type="html">&lt;p&gt;參考資訊:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-08-11T20:06:00+08:00</updated><entry><title>第11課 - Error Hamdling</title><link href="./Lesson%2011.html" rel="alternate"></link><published>2017-08-11T20:06:00+08:00</published><updated>2017-08-11T20:06:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-11:./Lesson 11.html</id><summary type="html">&lt;p&gt;參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=qS0UkqaYmfU&amp;feature"&gt;https://www.youtube.com/watch?v=qS0UkqaYmfU&amp;amp;feature&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;!-- 發生Error時,如何解決 --&gt;
+
+&lt;h3&gt;說明:&lt;/h3&gt;
+&lt;p&gt;Error Hamdling
+&lt;ul&gt;
+&lt;li&gt;try:
+&lt;ul&gt;
+&lt;li&gt;說明: 將會檢查在try內的內容,如果檢查到錯誤,將啟動except
+&lt;/ul&gt;
+&lt;li&gt;except:
+&lt;ul&gt;
+&lt;li&gt;說明: 放入發生錯誤時,要執行的指令
+&lt;ul&gt;
+&lt;li&gt;可以設定要執行的錯誤種類
+&lt;pre&gt;例:&lt;br&gt;   except NameError: 指定NameError的錯誤,執行這指令&lt;/pre&gt;
+&lt;li&gt;以下還有:
+&lt;ul&gt;
+&lt;li&gt;ZeroDivisionError(分母為零)
+&lt;ul&gt;
+&lt;li&gt;例: 10/0(分母為零)
+&lt;/ul&gt;
+&lt;li&gt;NameError(變數沒定義)
+&lt;ul&gt;
+&lt;li&gt;例: 10 / maber(maber沒定義)
+&lt;/ul&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;error:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-11/img/error.png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;try except:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-11/img/try except.png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;try except-2:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-11/img/try except-2.png" width="600" hspace="100"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;try except-3:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-11/img/try except-3.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 11"></category></entry><entry><title>第10課 - Global Scope and Local Scope</title><link href="./Lesson%2010.html" rel="alternate"></link><published>2017-08-08T17:34:00+08:00</published><updated>2017-08-08T17:34:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-08:./Lesson 10.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=M-CoVBK_bLE&amp;feature"&gt;https://www.youtube.com/watch?v=M-CoVBK_bLE&amp;amp;feature&lt;/a&gt;&lt;/p&gt;
 
