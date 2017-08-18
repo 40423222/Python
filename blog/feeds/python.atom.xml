@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-08-11T20:06:00+08:00</updated><entry><title>第11課 - Error Hamdling</title><link href="./Lesson%2011.html" rel="alternate"></link><published>2017-08-11T20:06:00+08:00</published><updated>2017-08-11T20:06:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-11:./Lesson 11.html</id><summary type="html">&lt;p&gt;參考資訊:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-08-18T16:53:00+08:00</updated><entry><title>第12課 - Guess the Number</title><link href="./Lesson%2012.html" rel="alternate"></link><published>2017-08-18T16:53:00+08:00</published><updated>2017-08-18T16:53:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-18:./Lesson 12.html</id><summary type="html">&lt;p&gt;參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=48WXHT0dfEY"&gt;https://www.youtube.com/watch?v=48WXHT0dfEY&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;!-- 寫一個猜數字的遊戲程式 --&gt;
+
+&lt;h3&gt;說明:&lt;/h3&gt;
+&lt;p&gt;Guess the Number
+&lt;ul&gt;
+&lt;li&gt;先利用import random的random.randint(minNumber, maxNumber),
+來建立minNumber~maxNumber的一個亂數
+&lt;li&gt;建立好一個亂數後,
+使用for guessesTaken in range(minGuesses, maxGuesses),
+來設定開始(minGuesses)到結束(maxGuesses)的執行次數
+&lt;ul&gt;
+&lt;li&gt;並在在for回圈內定義if,來提示猜的數字要在大來是要在小,
+當 猜對時 或 超過值型次數時 會跳出for迴圈
+&lt;/ul&gt;
+&lt;li&gt;最後再用if來檢查你有沒有答對
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;
+&lt;!-- 因為圖片字太小所以要更改平時的圖片格式,下次使用要改回來 --&gt;&lt;/p&gt;
+&lt;h3&gt;Guesses the Number:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-12/img/Guess the Number.png" width="850"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 12"></category></entry><entry><title>第11課 - Error Hamdling</title><link href="./Lesson%2011.html" rel="alternate"></link><published>2017-08-11T20:06:00+08:00</published><updated>2017-08-11T20:06:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-11:./Lesson 11.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=qS0UkqaYmfU&amp;feature"&gt;https://www.youtube.com/watch?v=qS0UkqaYmfU&amp;amp;feature&lt;/a&gt;&lt;/p&gt;
 
