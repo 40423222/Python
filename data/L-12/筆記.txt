@@ -1,0 +1,25 @@
+L-12: Writing a Guess the Number Game
+.............................................
+說明:
+利用import random的random.randint(minNumber, maxNumber),
+來建立minNumber~maxNumber的一個亂數
+
+建立好一個亂數後,
+使用for guessesTaken in range(minGuesses, maxGuesses),
+來設定開始(minGuesses)到結束(maxGuesses)的執行次數
+並在在for回圈內定義if,來提示猜的數字要在大來是要在小,
+當 猜對時 或 超過值型次數時 會跳出for迴圈
+
+最後再用if來檢查你有沒有答對
+
+
+
+
+
+
+
+
+
+
+
+

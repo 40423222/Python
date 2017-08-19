@@ -17,10 +17,14 @@ import random                    啟動random
 random.randint(起始值, 最大值)   範圍亂數
 
 數列:
-for range()                      產生數列
+for range():                     產生數列
 
 條件判斷
 if : 
                             條件判斷
 迴圈:
 while :                          迴圈
+
+錯誤發生:
+try:
+except:

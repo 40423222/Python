@@ -1,0 +1,76 @@
+Python
+
+開啟IDLE
+
+一開始:
+下載Python
+Python
+
+基本:
+運算符號
+字串的使用
+Variables(變數)
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%202.html">L-1</a>
+
+建立New File完成程式,並執行
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%203.html">L-3</a>
+
+指令:
+有關print( )之說明
+有關input( )之說明
+有關int( ) and str( )之說明
+有關len( ):之說明
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%203.html">L-3</a>
+
+Boolean之說明
+if之範例
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%204.html">L-4</a>
+
+HTML背景
+if, elif, and else的各種範例
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%205.html">L-5</a>
+
+While Loops
+break
+continue
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%206.html">L-6</a>
+
+for name in range(開始值, 停止值, 間隔):
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%207.html">L-7</a>
+
+模組: 
+import => 啟動模組
+<ul>
+random
+<ul>
+random.randint(起始值, 最大值) => 設定範圍
+sys
+<ul>
+sys.exit() => 強制跳出(就像break)
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%208.html">L-8</a>
+
+def => 定義程式為名稱
+print()之進階說明
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%209.html">L-9</a>
+
+Global => 全局變量
+Local => 局部變量
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%2010.html">L-10</a>
+
+Error Hamdling => 處裡錯誤
+<ul>
+try:
+except:
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%2011.html">L-11</a>
+
+Guess the Number => 猜數字遊戲
+網站: <a href="https://40423222.github.io/Python/blog/Lesson%2012.html">L-12</a>
+
+網站: <a href=""></a>
+
+L-1
+基本換算
+字串換算
+Variables(變數)
+
+
