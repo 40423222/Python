@@ -1,0 +1,55 @@
+L-13 Lists, Indexes, Slices, and the list() Function
+..........................................................
+說明:
+
+列表
+name [0號, 1號, 2號]
+就像Arduino的矩陣
+
+注意: 第一位以0這數字來表示
+
+例如:
+>>> spam = ['cat', 'bat', 'rat', 'elephant']
+>>> spam
+['cat', 'bat', 'rat', 'elephant']
+
+打成程式
+
+### Lists 列表
+### 注意: 字串要使用''
+print("spam = ['cat', 'bat', 'rat', 'elephant'] :")
+spam = ['cat', 'bat', 'rat', 'elephant']
+print('spam :')
+spam
+pirnt("['cat'，'bat'，'rat'，'elephant'] [3] :")
+['cat'，'bat'，'rat'，'elephant'] [3]
+print('spam [0] :')
+spam [0]
+print('spam [1] :')
+spam [1]
+print('spam [2] :')
+spam [2]
+print('spam [3] :')
+spam [3]
+
+### 列表加字串
+print(spam [0], 'eat', spam [2]
+
+
+
+Slices 切片
+name = [從前面開始跳過幾個:到第幾位前一個位]
+快速顯示多個定義
+
+整數
+負整數
+快速模式
+
+
+
+索引: 就是收巡列表中的值
+
+程式太長 分端貼上 Blog因該可以貼上
+
+
+

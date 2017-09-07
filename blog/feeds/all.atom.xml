@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-08-19T19:30:00+08:00</updated><entry><title>Python flowchart</title><link href="./Flowchart.html" rel="alternate"></link><published>2017-08-19T19:30:00+08:00</published><updated>2017-08-19T19:30:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-19:./Flowchart.html</id><summary type="html">&lt;p&gt;參考資訊:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-09-07T22:53:00+08:00</updated><entry><title>第13課 - Lists 列表</title><link href="./Lesson%2013.html" rel="alternate"></link><published>2017-09-07T22:53:00+08:00</published><updated>2017-09-07T22:53:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-09-07:./Lesson 13.html</id><summary type="html">&lt;p&gt;關於列表功用的介紹&lt;br&gt;
+參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=48WXHT0dfEY"&gt;https://www.youtube.com/watch?v=48WXHT0dfEY&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;!-- 關於列表功用的介紹 --&gt;
+
+&lt;h3&gt;說明:&lt;/h3&gt;
+&lt;p&gt;Lists 列表
+&lt;ul&gt;
+&lt;li&gt;name [0號, 1號, 2號] 就像Arduino的矩陣
+&lt;ul&gt;
+&lt;li&gt;注意: 第一位以0這數字來表示
+&lt;li&gt;&lt;pre&gt;例如對Shell輸入:&lt;br&gt;   &amp;gt;&amp;gt;&amp;gt; spam = ['cat', 'bat', 'rat', 'elephant']&lt;br&gt;   &amp;gt;&amp;gt;&amp;gt; spam&lt;br&gt;   ['cat', 'bat', 'rat', 'elephant']
+&lt;/ul&gt;
+&lt;li&gt;更多功能在下方圖片介紹
+&lt;/ul&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;!-- 因為圖片字太小所以要更改平時的圖片格式,需要改回來 可以去參考第11課 --&gt;
+
+&lt;h3&gt;Lists 列表的用法:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-13/img/Lists.png" width="850"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;資料自動製成列表:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-13/img/Working with Lists.png" width="850"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 13"></category></entry><entry><title>Python flowchart 目錄</title><link href="./Flowchart.html" rel="alternate"></link><published>2017-08-19T19:30:00+08:00</published><updated>2017-08-19T19:30:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-19:./Flowchart.html</id><summary type="html">&lt;p&gt;快速預覽關於Python的資料&lt;br&gt;
+參考資訊:
 網站: &lt;a href="https://40423222.github.io/Python/blog/"&gt;https://40423222.github.io/Python/blog/&lt;/a&gt;&lt;/p&gt;
 
 
 &lt;hr&gt;
 
 &lt;!-- 讓使用著方便找尋要使用的資料 --&gt;
+
+&lt;!-- 注意:每次都要更新Date:的時間,表持這標題顯示在Blog的最上方 --&gt;
+
+&lt;!-- 第一次更改為20170819 --&gt;
 
 &lt;h2&gt;Python&lt;/h2&gt;
 &lt;p&gt;&lt;ul&gt;
@@ -103,7 +137,7 @@
 &lt;/ul&gt;&lt;/p&gt;
 &lt;!-- 因為圖片字太小所以要更改平時的圖片格式,下次使用要改回來
 ### Guesses the Number:
-&lt;img src="./../data/L-12/img/Guess the Number.png" width="850"&gt; --&gt;</summary><category term="notes"></category><category term="Flowchart"></category></entry><entry><title>第12課 - Guess the Number</title><link href="./Lesson%2012.html" rel="alternate"></link><published>2017-08-18T16:53:00+08:00</published><updated>2017-08-18T16:53:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-18:./Lesson 12.html</id><summary type="html">&lt;p&gt;參考資訊:
+&lt;img src="./../data/L-12/img/Guess the Number.png" width="850"&gt; --&gt;</summary><category term="notes"></category><category term="Flowchart"></category></entry><entry><title>第12課 - Guess the Number 猜數字遊戲</title><link href="./Lesson%2012.html" rel="alternate"></link><published>2017-08-18T16:53:00+08:00</published><updated>2017-08-18T16:53:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-18:./Lesson 12.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=48WXHT0dfEY"&gt;https://www.youtube.com/watch?v=48WXHT0dfEY&lt;/a&gt;&lt;/p&gt;
 
@@ -127,9 +161,9 @@
 &lt;li&gt;最後再用if來檢查你有沒有答對
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;hr&gt;
-&lt;!-- 因為圖片字太小所以要更改平時的圖片格式,下次使用要改回來 --&gt;&lt;/p&gt;
+&lt;!-- 因為圖片字太小所以要更改平時的圖片格式,需要改回來 可以去參考第11課 --&gt;&lt;/p&gt;
 &lt;h3&gt;Guesses the Number:&lt;/h3&gt;
-&lt;p&gt;&lt;img src="./../data/L-12/img/Guess the Number.png" width="850"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 12"></category></entry><entry><title>第11課 - Error Hamdling</title><link href="./Lesson%2011.html" rel="alternate"></link><published>2017-08-11T20:06:00+08:00</published><updated>2017-08-11T20:06:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-11:./Lesson 11.html</id><summary type="html">&lt;p&gt;參考資訊:
+&lt;p&gt;&lt;img src="./../data/L-12/img/Guess the Number.png" width="850"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 12"></category></entry><entry><title>第11課 - Error Hamdling 錯誤發生處理</title><link href="./Lesson%2011.html" rel="alternate"></link><published>2017-08-11T20:06:00+08:00</published><updated>2017-08-11T20:06:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-11:./Lesson 11.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=qS0UkqaYmfU&amp;feature"&gt;https://www.youtube.com/watch?v=qS0UkqaYmfU&amp;amp;feature&lt;/a&gt;&lt;/p&gt;
 
@@ -176,7 +210,7 @@
 &lt;hr&gt;
 
 &lt;h3&gt;try except-3:&lt;/h3&gt;
-&lt;p&gt;&lt;img src="./../data/L-11/img/try except-3.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 11"></category></entry><entry><title>第10課 - Global Scope and Local Scope</title><link href="./Lesson%2010.html" rel="alternate"></link><published>2017-08-08T17:34:00+08:00</published><updated>2017-08-08T17:34:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-08:./Lesson 10.html</id><summary type="html">&lt;p&gt;參考資訊:
+&lt;p&gt;&lt;img src="./../data/L-11/img/try except-3.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 11"></category></entry><entry><title>第10課 - Global Scope and Local Scope 局部變量跟全局變量</title><link href="./Lesson%2010.html" rel="alternate"></link><published>2017-08-08T17:34:00+08:00</published><updated>2017-08-08T17:34:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-08:./Lesson 10.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=M-CoVBK_bLE&amp;feature"&gt;https://www.youtube.com/watch?v=M-CoVBK_bLE&amp;amp;feature&lt;/a&gt;&lt;/p&gt;
 
@@ -217,9 +251,9 @@
 &lt;hr&gt;
 
 &lt;h3&gt;same name LG variables:&lt;/h3&gt;
-&lt;p&gt;&lt;img src="./../data/L-10/img/same name LG variables.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 10"></category></entry><entry><title>第9課 - def and print( )</title><link href="./Lesson%209.html" rel="alternate"></link><published>2017-08-07T16:07:00+08:00</published><updated>2017-08-07T16:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-07:./Lesson 9.html</id><summary type="html">&lt;p&gt;參考資訊:
+&lt;p&gt;&lt;img src="./../data/L-10/img/same name LG variables.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 10"></category></entry><entry><title>第9課 - def and print( ) 定義程式內部的程式名稱</title><link href="./Lesson%209.html" rel="alternate"></link><published>2017-08-07T16:07:00+08:00</published><updated>2017-08-07T16:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-07:./Lesson 9.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
-影片: &lt;a href="https://www.youtube.com/watch?v=WB4hJJkfhLU&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=WB4hJJkfhLU&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=WB4hJJkfhLU&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=WB4hJJkfhLU&lt;/a&gt;&lt;/p&gt;
 
 
 &lt;hr&gt;
@@ -251,9 +285,9 @@
 &lt;hr&gt;
 
 &lt;h3&gt;print:&lt;/h3&gt;
-&lt;p&gt;&lt;img src="./../data/L-9/img/print.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 9"></category></entry><entry><title>第8課 - import, sys.exit( ), random.randint( )</title><link href="./Lesson%208.html" rel="alternate"></link><published>2017-08-05T07:13:00+08:00</published><updated>2017-08-05T07:13:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-05:./Lesson 8.html</id><summary type="html">&lt;p&gt;參考資訊:
+&lt;p&gt;&lt;img src="./../data/L-9/img/print.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 9"></category></entry><entry><title>第8課 - import, sys.exit( ), random.randint( ) 啟動模組</title><link href="./Lesson%208.html" rel="alternate"></link><published>2017-08-05T07:13:00+08:00</published><updated>2017-08-05T07:13:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-05:./Lesson 8.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
-影片: &lt;a href="https://www.youtube.com/watch?v=xJLj6fWfw6k&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=xJLj6fWfw6k&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=xJLj6fWfw6k"&gt;https://www.youtube.com/watch?v=xJLj6fWfw6k&lt;/a&gt;&lt;/p&gt;
 
 
 &lt;hr&gt;
@@ -281,9 +315,9 @@
 &lt;hr&gt;
 
 &lt;h3&gt;sys.exit:&lt;/h3&gt;
-&lt;p&gt;&lt;img src="./../data/L-8/img/sys.exit.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 8"></category></entry><entry><title>第7課 - for Loops and range( )</title><link href="./Lesson%207.html" rel="alternate"></link><published>2017-08-04T18:39:00+08:00</published><updated>2017-08-04T18:39:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-04:./Lesson 7.html</id><summary type="html">&lt;p&gt;參考資訊:
+&lt;p&gt;&lt;img src="./../data/L-8/img/sys.exit.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 8"></category></entry><entry><title>第7課 - for Loops and range( ) 範圍指令</title><link href="./Lesson%207.html" rel="alternate"></link><published>2017-08-04T18:39:00+08:00</published><updated>2017-08-04T18:39:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-08-04:./Lesson 7.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
-影片: &lt;a href="https://www.youtube.com/watch?v=HFQGxh1jY3g&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=HFQGxh1jY3g&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=HFQGxh1jY3g"&gt;https://www.youtube.com/watch?v=HFQGxh1jY3g&lt;/a&gt;&lt;/p&gt;
 
 
 &lt;hr&gt;
@@ -324,7 +358,7 @@
 &lt;h3&gt;start to stop interval:&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/L-7/img/start to stop interval.png" width="600" hspace="100"&gt;
 &lt;br&gt;
-&lt;img src="./../data/L-7/img/start to stop interval-flowchart.png" width="550" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 7"></category></entry><entry><title>第6課 - While Loops, break, and continue</title><link href="./Lesson%206.html" rel="alternate"></link><published>2017-07-31T14:16:00+08:00</published><updated>2017-07-31T14:16:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-31:./Lesson 6.html</id><summary type="html">&lt;p&gt;參考資訊:
+&lt;img src="./../data/L-7/img/start to stop interval-flowchart.png" width="550" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 7"></category></entry><entry><title>第6課 - While Loops, break, and continue 迴圈指令</title><link href="./Lesson%206.html" rel="alternate"></link><published>2017-07-31T14:16:00+08:00</published><updated>2017-07-31T14:16:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-31:./Lesson 6.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=885qKiiKisI&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=885qKiiKisI&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
 
@@ -369,7 +403,7 @@
 &lt;h3&gt;while-continue:&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/L-6/img/while-continue.png" width="600" hspace="100"&gt;
 &lt;br&gt;
-&lt;img src="./../data/L-6/img/while-continue-flowchart.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 6"></category></entry><entry><title>第5課 - if, elif, and else</title><link href="./Lesson%205.html" rel="alternate"></link><published>2017-07-29T23:07:00+08:00</published><updated>2017-07-29T23:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-29:./Lesson 5.html</id><summary type="html">&lt;p&gt;參考資訊:
+&lt;img src="./../data/L-6/img/while-continue-flowchart.png" width="600" hspace="100"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 6"></category></entry><entry><title>第5課 - if, elif, and else 條件指令</title><link href="./Lesson%205.html" rel="alternate"></link><published>2017-07-29T23:07:00+08:00</published><updated>2017-07-29T23:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-29:./Lesson 5.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=lWeCgEbk-Ro&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=lWeCgEbk-Ro&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
 
@@ -405,7 +439,7 @@ else 到這直接執行,不需要條件(放置在尾端)
 &lt;br&gt;
 &lt;img src="./../data/L-5/img/if-elif-else-flowchart.png" width="800"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 5"></category></entry><entry><title>第4課 - 比較跟布林運算符號</title><link href="./Lesson%204.html" rel="alternate"></link><published>2017-07-26T16:26:00+08:00</published><updated>2017-07-26T16:26:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-26:./Lesson 4.html</id><summary type="html">&lt;p&gt;參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter2/"&gt;https://automatetheboringstuff.com/chapter2/&lt;/a&gt;
-影片: &lt;a href="https://www.youtube.com/watch?v=4XA9CKJJbr4&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=4XA9CKJJbr4&amp;amp;feature=youtu.be&lt;/a&gt;&lt;/p&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=4XA9CKJJbr4&amp;feature=youtu.be"&gt;https://www.youtube.com/watch?v=4XA9CKJJbr4&lt;/a&gt;&lt;/p&gt;
 
 
 &lt;hr&gt;
