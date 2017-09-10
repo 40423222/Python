@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-09-07T22:53:00+08:00</updated><entry><title>第13課 - Lists 列表</title><link href="./Lesson%2013.html" rel="alternate"></link><published>2017-09-07T22:53:00+08:00</published><updated>2017-09-07T22:53:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-09-07:./Lesson 13.html</id><summary type="html">&lt;p&gt;關於列表功用的介紹&lt;br&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-09-10T18:44:00+08:00</updated><entry><title>第14課 - forRange with Lists forRange與列表</title><link href="./Lesson%2014.html" rel="alternate"></link><published>2017-09-10T18:44:00+08:00</published><updated>2017-09-10T18:44:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-09-10:./Lesson 14.html</id><summary type="html">&lt;p&gt;關於for的range( )配合列表的介紹&lt;br&gt;
 參考資訊:
-網站: &lt;a href="https://automatetheboringstuff.com/chapter3/"&gt;https://automatetheboringstuff.com/chapter3/&lt;/a&gt;
+網站: &lt;a href="https://automatetheboringstuff.com/chapter4/"&gt;https://automatetheboringstuff.com/chapter4/&lt;/a&gt;
+影片: &lt;a href="https://www.youtube.com/watch?v=umTnflPbYww"&gt;https://www.youtube.com/watch?v=umTnflPbYww&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;!-- 關於for的range與列表功用的介紹 --&gt;
+
+&lt;h3&gt;說明:&lt;/h3&gt;
+&lt;p&gt;forRange with Lists forRange與列表
+&lt;ul&gt;
+&lt;li&gt;for i in range(4) 等於 for i in [0, 1, 2, 3],所以在L-13的Lists能使用for i in ListsName
+&lt;li&gt;常見的Python所使用的range範圍為 range(len(someList)),也就是看列表長度
+&lt;li&gt;可利用List來建立operators(運算符號),利用值in列表得出True or False
+&lt;li&gt;更多功能在下方圖片介紹
+&lt;/ul&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;!-- 因為圖片字太小所以要更改平時的圖片格式,需要改回來 可以去參考第11課 --&gt;
+
+&lt;h3&gt;forRange跟Lists的用法:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-14/img/forRange with Lists.png" width="850"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 14"></category></entry><entry><title>第13課 - Lists 列表</title><link href="./Lesson%2013.html" rel="alternate"></link><published>2017-09-07T22:53:00+08:00</published><updated>2017-09-07T22:53:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-09-07:./Lesson 13.html</id><summary type="html">&lt;p&gt;關於列表功用的介紹&lt;br&gt;
+參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter4/"&gt;https://automatetheboringstuff.com/chapter4/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=48WXHT0dfEY"&gt;https://www.youtube.com/watch?v=48WXHT0dfEY&lt;/a&gt;&lt;/p&gt;
 
 

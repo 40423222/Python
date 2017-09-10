@@ -1,0 +1,26 @@
+for i in range(4) 等於 for i in [0, 1, 2, 3]
+所以在L-13的Lists能使用for i in ListsName
+
+...........................................................
+
+常見的Python所使用的range範圍為 range(len(someList))
+也就是看列表長度
+
+先定義List 再利用for來得出範圍數值並用len訂出最大範圍
+最後利用print顯示
+
+...........................................................
+
+可利用List來建立operators(運算符號)
+利用值in列表得出True or False
+print("'howdy' in ['hello', 'hi', 'howdy', 'heyas']:")
+print('howdy' in ['hello', 'hi', howdy', 'heyas'])
+print("定義: spam = ['hello', 'hi', howdy', 'heyas']")
+
+...........................................................
+
+看這:
+http://abgne.tw/jquery/apply-jquery/jquery-colorful-elastic-subnav-menu.html
+
+
+
