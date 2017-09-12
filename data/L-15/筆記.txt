@@ -1,0 +1,39 @@
+
+
+打在Blog上
+index( ): listName.index('name') 類式
+indexes(索引): listName[nuber]
+
+但是index( )能檢查出List的內容
+而索引只能更具列表拿出List內的值
+
+....................................................
+
+打在Blog上
+在List上添加新的值
+可使用 append( ) or insert( )
+append( ): listName.append('newValue')
+insert( ): listName.insert(nuber, 'newValue')
+
+....................................................
+
+打在Blog上
+remove( )
+移除List內的值
+注意: 要刪除的值在List有重複 只會刪除List內最前面的值
+listName.remove( valueName )
+
+....................................................
+
+打在Blog上
+sort( )
+將List排列順序
+listName.sort( ):
+排列方式: 數字由小到大 字母由小寫到大寫 a到z
+listName.sort( reverse = True ):
+排列方式: 數字由大到小 字母由小寫到大寫 z到a
+注意: 不建議中文使用
+
+....................................................
+
+免費影片只到L-15
