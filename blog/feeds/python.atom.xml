@@ -1,5 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-09-12T18:16:00+08:00</updated><entry><title>第15課 - index( ), append( ), insert( ), remove( ), sort( ) 用於列表的指令</title><link href="./Lesson%2015.html" rel="alternate"></link><published>2017-09-12T18:16:00+08:00</published><updated>2017-09-12T18:16:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-09-12:./Lesson 15.html</id><summary type="html">&lt;p&gt;用於列表指令的介紹&lt;br&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/python.atom.xml" rel="self"></link><id>./</id><updated>2017-09-16T15:26:00+08:00</updated><entry><title>第16課 - type( ), mutable and Immutable, copy( ) 列表更多應用</title><link href="./Lesson%2016.html" rel="alternate"></link><published>2017-09-16T15:26:00+08:00</published><updated>2017-09-16T15:26:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-09-16:./Lesson 16.html</id><summary type="html">&lt;p&gt;type( ), mutable and Immutable, copy( ) 列表更多應用&lt;br&gt;
+參考資訊:
+網站: &lt;a href="https://automatetheboringstuff.com/chapter4/"&gt;https://automatetheboringstuff.com/chapter4/&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;!-- type( ), mutable and Immutable, copy( ) 列表更多應用 --&gt;
+
+&lt;h3&gt;說明:&lt;/h3&gt;
+&lt;p&gt;type( ), mutable and Immutable, copy( ) 列表更多應用
+&lt;ul&gt;
+&lt;li&gt;type( ):
+&lt;ul&gt;
+&lt;li&gt;顯示( )內的類型
+&lt;ul&gt;
+&lt;li&gt;常見的類型:&lt;pre&gt;列表: List     元組: Tuple     字串: Str     整數: Int     浮點數: Float&lt;/pre&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;li&gt;list( ) and tuple( ):
+&lt;ul&gt;
+&lt;li&gt;將( )內的類型轉為list or tuple,也可以轉為str int float
+&lt;/ul&gt;
+&lt;li&gt;Mutable and Immutable:
+&lt;ul&gt;
+&lt;li&gt;可變和不可變的數據類型
+&lt;li&gt;注意: 字串不能被更改內容,只能被覆蓋或改類型
+&lt;/ul&gt;
+&lt;li&gt;Strings with List:
+&lt;ul&gt;
+&lt;li&gt;對字串使用列表指令
+&lt;li&gt;可以顯示第n位字的字串 和 查詢字是否在這字串內
+&lt;li&gt;注意: 但不能更改字串內容,想要更改字串可參考&lt;span style="background-color: #FFFF33"&gt;Mutable and Immutable:&lt;/span&gt;
+&lt;/ul&gt;
+&lt;li&gt;random with List:
+&lt;ul&gt;
+&lt;li&gt;隨機顯示列表內容
+&lt;li&gt;利用random模組生產一個亂碼,再利用列表的index來顯示列表內容
+&lt;/ul&gt;
+&lt;li&gt;Def with List:
+&lt;ul&gt;
+&lt;li&gt;用def添加值給List
+&lt;li&gt;用def建立name(someParameter),並輸入要添加值的內容,最後將listName丟入someParameter添加值
+&lt;/ul&gt;
+&lt;li&gt;list ID:
+&lt;ul&gt;
+&lt;li&gt;列表共用性
+&lt;li&gt;變數值可以互換,因為會複製出新的變數值
+&lt;li&gt;列表不可以互換,因為不會複製出新的列表
+&lt;/ul&gt;
+&lt;li&gt;copy( ) with List:
+&lt;ul&gt;
+&lt;li&gt;複製列表
+&lt;li&gt;因為列表不會複製出新的列表,所以就要使用copy模組
+&lt;/ul&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;!-- 因為圖片字太小所以要更改平時的圖片格式,需要改回來 可以去參考第11課 --&gt;
+
+&lt;h3&gt;type( ):&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-16/img/type( ).png" width="850"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;list( ) and tuple( ):&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-16/img/list( ) and tuple( ).png" width="850"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Mutable and Immutable:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-16/img/Mutable and Immutable.png" width="850"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Strings with List:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-16/img/Strings with List.png" width="850"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;random with List:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-16/img/random with List.png" width="850"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Def with List:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-16/img/Def with List.png" width="850"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;list ID:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-16/img/list ID.png" width="850"&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;copy( ) with List:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/L-16/img/copy( ) with List.png" width="850"&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Lesson 16"></category></entry><entry><title>第15課 - index( ), append( ), insert( ), remove( ), sort( ) 用於列表的指令</title><link href="./Lesson%2015.html" rel="alternate"></link><published>2017-09-12T18:16:00+08:00</published><updated>2017-09-12T18:16:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-09-12:./Lesson 15.html</id><summary type="html">&lt;p&gt;用於列表指令的介紹&lt;br&gt;
 參考資訊:
 網站: &lt;a href="https://automatetheboringstuff.com/chapter4/"&gt;https://automatetheboringstuff.com/chapter4/&lt;/a&gt;
 影片: &lt;a href="https://www.youtube.com/watch?v=Z9IxxW7428A"&gt;https://www.youtube.com/watch?v=Z9IxxW7428A&lt;/a&gt;&lt;/p&gt;

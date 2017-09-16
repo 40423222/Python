@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>第3課 - 你的第一個程式 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>第16課 - type( ), mutable and Immutable, copy( ) 列表更多應用 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,21 +10,21 @@
 
 
 
-<link rel="canonical" href="./Lesson 3.html">
+<link rel="canonical" href="./Lesson 16.html">
 
         <meta name="author" content="40423222" />
-        <meta name="keywords" content="notes,Lesson 3" />
-        <meta name="description" content="參考資訊: 網站: https://automatetheboringstuff.com/chapter1/ 影片: https://www.youtube.com/watch?v=buMTH6ICnqk" />
+        <meta name="keywords" content="notes,Lesson 16" />
+        <meta name="description" content="type( ), mutable and Immutable, copy( ) 列表更多應用 參考資訊: 網站: https://automatetheboringstuff.com/chapter4/" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="第3課 - 你的第一個程式"/>
-        <meta property="og:url" content="./Lesson 3.html"/>
-        <meta property="og:description" content="參考資訊: 網站: https://automatetheboringstuff.com/chapter1/ 影片: https://www.youtube.com/watch?v=buMTH6ICnqk"/>
-        <meta property="article:published_time" content="2017-07-25" />
+        <meta property="og:title" content="第16課 - type( ), mutable and Immutable, copy( ) 列表更多應用"/>
+        <meta property="og:url" content="./Lesson 16.html"/>
+        <meta property="og:description" content="type( ), mutable and Immutable, copy( ) 列表更多應用 參考資訊: 網站: https://automatetheboringstuff.com/chapter4/"/>
+        <meta property="article:published_time" content="2017-09-16" />
             <meta property="article:section" content="Python" />
             <meta property="article:tag" content="notes" />
-            <meta property="article:tag" content="Lesson 3" />
+            <meta property="article:tag" content="Lesson 16" />
             <meta property="article:author" content="40423222" />
 
 
@@ -132,10 +132,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./Lesson 3.html"
+                    <a href="./Lesson 16.html"
                        rel="bookmark"
-                       title="Permalink to 第3課 - 你的第一個程式">
-                        第3課 - 你的第一個程式
+                       title="Permalink to 第16課 - type( ), mutable and Immutable, copy( ) 列表更多應用">
+                        第16課 - type( ), mutable and Immutable, copy( ) 列表更多應用
                     </a>
                 </h1>
             </header>
@@ -145,7 +145,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-07-25T02:25:00+08:00"> Tue 25 July 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-09-16T15:26:00+08:00"> Sat 16 September 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
@@ -155,58 +155,99 @@
 <span class="label label-default">Tags</span>
 	<a href="./tag/notes.html">notes</a>
         /
-	<a href="./tag/lesson-3.html">Lesson 3</a>
+	<a href="./tag/lesson-16.html">Lesson 16</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>參考資訊:
-網站: <a href="https://automatetheboringstuff.com/chapter1/">https://automatetheboringstuff.com/chapter1/</a>
-影片: <a href="https://www.youtube.com/watch?v=buMTH6ICnqkhttps://www.youtube.com/watch?v=buMTH6ICnqk">https://www.youtube.com/watch?v=buMTH6ICnqk</a></p>
+                <p>type( ), mutable and Immutable, copy( ) 列表更多應用<br>
+參考資訊:
+網站: <a href="https://automatetheboringstuff.com/chapter4/">https://automatetheboringstuff.com/chapter4/</a></p>
 
 
 <hr>
 
-<h3>writing Our first program(寫出我們第一個程式):</h3>
-<p>開起New File
-<br>
-<img src="./../data/L-3/New File.png" width="800"></p>
+<!-- type( ), mutable and Immutable, copy( ) 列表更多應用 -->
+
+<h3>說明:</h3>
+<p>type( ), mutable and Immutable, copy( ) 列表更多應用
+<ul>
+<li>type( ):
+<ul>
+<li>顯示( )內的類型
+<ul>
+<li>常見的類型:<pre>列表: List     元組: Tuple     字串: Str     整數: Int     浮點數: Float</pre>
+</ul>
+</ul>
+<li>list( ) and tuple( ):
+<ul>
+<li>將( )內的類型轉為list or tuple,也可以轉為str int float
+</ul>
+<li>Mutable and Immutable:
+<ul>
+<li>可變和不可變的數據類型
+<li>注意: 字串不能被更改內容,只能被覆蓋或改類型
+</ul>
+<li>Strings with List:
+<ul>
+<li>對字串使用列表指令
+<li>可以顯示第n位字的字串 和 查詢字是否在這字串內
+<li>注意: 但不能更改字串內容,想要更改字串可參考<span style="background-color: #FFFF33">Mutable and Immutable:</span>
+</ul>
+<li>random with List:
+<ul>
+<li>隨機顯示列表內容
+<li>利用random模組生產一個亂碼,再利用列表的index來顯示列表內容
+</ul>
+<li>Def with List:
+<ul>
+<li>用def添加值給List
+<li>用def建立name(someParameter),並輸入要添加值的內容,最後將listName丟入someParameter添加值
+</ul>
+<li>list ID:
+<ul>
+<li>列表共用性
+<li>變數值可以互換,因為會複製出新的變數值
+<li>列表不可以互換,因為不會複製出新的列表
+</ul>
+<li>copy( ) with List:
+<ul>
+<li>複製列表
+<li>因為列表不會複製出新的列表,所以就要使用copy模組
+</ul></p>
 <hr>
 
-<h3>建立程式:</h3>
-<p>建立完成,Save後,點擊Run/Run Moodule,來啟動程式
-<br>
-<img src="./../data/L-3/hello.png" width="800"></p>
+<!-- 因為圖片字太小所以要更改平時的圖片格式,需要改回來 可以去參考第11課 -->
+
+<h3>type( ):</h3>
+<p><img src="./../data/L-16/img/type( ).png" width="850"></p>
 <hr>
 
-<h3>執行程式:</h3>
-<p>黑色字體,是使用者要輸入的資訊.
-如圖,ABCD和18
-<br>
-<img src="./../data/L-3/hello-E.png" width="800">
-<br>
-執行完就會自跳出程式</p>
+<h3>list( ) and tuple( ):</h3>
+<p><img src="./../data/L-16/img/list( ) and tuple( ).png" width="850"></p>
 <hr>
 
-<h3>print( ):</h3>
-<p>輸入在( )內的字串,會顯示在Shell
-<img src="./../data/L-3/print.png" width="800"></p>
+<h3>Mutable and Immutable:</h3>
+<p><img src="./../data/L-16/img/Mutable and Immutable.png" width="850"></p>
 <hr>
 
-<h3>input( ):</h3>
-<p><img src="./../data/L-3/input.png" width="800"></p>
+<h3>Strings with List:</h3>
+<p><img src="./../data/L-16/img/Strings with List.png" width="850"></p>
 <hr>
 
-<h3>int( ) and str( ):</h3>
-<p>int( ): 將<span style="background-color: #ffff00">有字串的數字</span>轉為整數,例如: int('123') = 123,而不是'123',int(12.123) = 12,int(12.123+1) = 13
-<br>
-str( ): 將<span style="background-color: #ffff00">沒有字串的數字</span>轉為字串,例如: str(123) = '123',而不是123
-<img src="./../data/L-3/int and str.png" width="800"></p>
+<h3>random with List:</h3>
+<p><img src="./../data/L-16/img/random with List.png" width="850"></p>
 <hr>
 
-<h3>len( ):</h3>
-<p>顯示有幾個字串,例如: len('123Abc') = 6
-<br>
-<img src="./../data/L-3/len.png" width="800"></p>
+<h3>Def with List:</h3>
+<p><img src="./../data/L-16/img/Def with List.png" width="850"></p>
+<hr>
+
+<h3>list ID:</h3>
+<p><img src="./../data/L-16/img/list ID.png" width="850"></p>
+<hr>
+
+<h3>copy( ) with List:</h3>
+<p><img src="./../data/L-16/img/copy( ) with List.png" width="850"></p>
             </div>
             <!-- /.entry-content -->
         </article>

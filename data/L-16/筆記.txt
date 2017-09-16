@@ -1,0 +1,111 @@
+L-16
+......................................................
+
+# 原來列表可以不用一行打完
+心情 = ['It is happy',
+      'It is sad',
+      'It is angry',
+      'It is calm']
+
+比 end = '' 更方便的連接法 +\
+例如:
+end = ''
+
+print('123' end = '')
+print('456')
+說明: 適用於完成程式 禿然要連接print時使用
+
+
++\ 
+
+print('123' +\
+      '456')
+說明: 方便快速 並減少指令長度
+
+......................................................
+
+type( ):
+顯示( )內的類型
+常見的類型:
+List
+Tuple
+Str
+Int
+Float
+
+......................................................
+
+list( ) and tuple( ):
+將( )內的類型 轉為list or tuple
+也可以轉為str int float
+
+......................................................
+
+Mutable and Immutable:
+可變和不可變的數據類型
+字串不能被更改內容 只能被覆蓋或改類型
+
+......................................................
+
+Strings with List:
+對字串使用列表指令
+可以顯示第n位字的字串 和 查詢字是否在這字串內
+但不能更改字串內容 想要更改字串可參考Mutable and Immutable:
+
+......................................................
+
+random with List:
+隨機顯示列表內容
+利用random模組生產一個亂碼
+再利用列表的index來顯示列表內容
+
+......................................................
+
+Def with List:
+用def添加值給List
+用def建立name(someParameter) 並輸入要添加值的內容
+最後將listName丟入someParameter添加值
+
+......................................................
+
+list ID:
+列表共用性
+變數值可以互換 因為會複製出新的變數值
+列表不可以互換 因為不會複製出新的列表
+
+......................................................
+
+copy( ) with List:
+複製列表
+因為列表不會複製出新的列表
+所以就要使用copy模組
+
+......................................................
+
+文字顏色:
+<font color="#FFFFFF">文字</font>
+<字形 顏色="#FFFFF">文字</字型>
+
+文字的背景顏色:
+<span style="background-color: #ffff00">文字</span>
+<寬度 風格="背景-顏色">文字</寬度>
+
+按鈕連結:
+<button onClick="lity('https://player.vimeo.com/video/205152670')"><span class="glyphicon glyphicon-facetime-video"></span>影片名稱</button>
+
+最新出片是到L-19
+也就是L-16到L-19
+插要在有兩個L
+
+用Python繪圖:
+https://googoodesign.gitbooks.io/-ezpython/content/chapter_2.html
+
+用Python寫網頁:
+https://www.google.com.tw/search?q=用python寫網頁&oq=用Python&aqs=chrome.5.69i59j69i57j0l4.9711j0j7&sourceid=chrome&ie=UTF-8
+
+用Python完成這網頁:
+https://www.toodoo.com/db/color.html
+提示:用Python完成HTML的指令
+
+老師的倉儲:
+https://github.com/mdecourse/2017springcd
