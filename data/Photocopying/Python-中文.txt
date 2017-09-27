@@ -1,0 +1,260 @@
+字典和結構數據
+
+在本章中，我將介紹字典數據類型，它提供了訪問和組織數據的靈活方式。然後，結合詞典與上一章中的列表知識，您將學習如何創建一個數據結構來建模一個tic-tac-toe板。
+
+字典數據類型
+
+像列表一樣，字典是許多值的集合。但與列表的索引不同，詞典的索引可以使用許多不同的數據類型，而不僅僅是整數。詞典的索引稱為密鑰，具有關聯值的鍵稱為鍵值對。
+
+在代碼中，一個字典用大括號鍵入{}。在交互式shell中輸入以下內容：
+
+
+>>> myCat = {'size'：'fat'，'color'：'gray'，'disposition'：'loud'}
+這將為該myCat變量分配一個字典。這本字典的鍵'size'，'color'和'disposition'。對於這些鍵的值'fat'，'gray'和'loud'分別。您可以通過鍵來訪問這些值：
+
+
+>>> myCat ['size']
+'脂肪'
+>>> '我的貓有'+ myCat ['color'] +'皮毛'。
+“我的貓有灰色的皮毛。
+字典仍然可以使用整數值作為鍵，就像列表使用整數作為索引一樣，但是它們不必從開始處0就可以是任何數字。
+
+
+>>> spam = {12345：“行李組合”，42：“答案”}
+詞典與列表
+
+與列表不同，詞典中的項目無序。名單中的第一個項目spam將是spam[0]。但字典中沒有“第一”項。雖然項目的順序對於確定兩個列表是否相同是重要的，但鍵字對中鍵入字典的順序並不重要。在交互式shell中輸入以下內容：
+
+
+>>> spam = ['cats'，'dogs'，'moose'] 
+>>> bacon = ['dogs'，'moose'，'cats'] 
+>>> spam == bacon
+假
+>>> eggs = {'name'：'Zophie'，'species'：'cat'，'age'：'8'} 
+>>> ham = {'species'：'cat'，'age'：'8 '，'name'：'Zophie'} 
+>>> 雞蛋==火腿 
+真的
+因為字典沒有被排序，它們不能像列表一樣切片。
+
+嘗試訪問字典中不存在的鍵將導致KeyError錯誤消息，非常類似於列表的“超出範圍” IndexError錯誤消息。在交互式shell中輸入以下內容，並註意由於沒有'color'鍵而顯示的錯誤消息：
+
+
+>>> spam = {'name'：'Zophie'，'age'：7} 
+>>> spam ['color']
+追溯（最近呼叫最後）：
+  文件“<pyshell＃1>”，第1行，在<module>中
+    垃圾郵件['顏色']
+KeyError：'color'
+雖然沒有訂購字典，但是您可以為鍵的任意值可以讓您以強大的方式組織數據。假設您希望程序存儲有關您朋友的生日的數據。您可以使用名稱為鍵和生日為值的字典。打開一個新的文件編輯器窗口並輸入以下代碼。將其另存為birthdays.py。
+
+
+?生日= {'愛麗絲'：'4月1日'，'鮑勃'：'12月12日'，'卡羅爾'：'3月4日'}
+
+   而真：
+       打印（'輸入名稱（空白退出）'）
+       name = input（）
+       如果name ==“'：
+           打破
+
+?如果生日中的名字：
+?打印（生日[姓名] +'是'+名稱的生日'）
+       其他：
+           打印（'我沒有'+名稱的生日信息'）
+           打印（“他們的生日是什麼？”）
+           bday = input（）
+?生日[名] = bday
+           print（'Birthday database updated。'）
+您創建一個初始字典並將其存儲在birthdays?中。您可以看到輸入的名稱是否作為in關鍵字? 的字典中的鍵存在，就像列表一樣。如果名稱在字典中，則使用方括號?來訪問關聯值; 如果沒有，可以使用與賦值運算符syntax相同的方括號語法添加它。
+
+當你運行這個程序，它將如下所示：
+
+
+輸入名稱：（空白退出）
+ 愛麗絲
+4月1日是愛麗絲的生日
+輸入名稱（空白退出）
+前夕
+我沒有夏娃的生日信息
+他們的生日是什麼？
+12月5日
+生日數據庫更新。
+輸入名稱（空白退出）
+前夕
+十二月五號是夏娃的生日
+輸入名稱（空白退出）
+當然，當程序終止時，您在此程序中輸入的所有數據都被遺忘。第8章將學習如何將數據保存到硬盤驅動器上的文件。
+
+keys（），values（）和items（）方法
+
+有三種字典方法將返回字典的鍵，值或鍵和值的列表類似的值：keys()，values()，和items()。這些方法返回的值不是真正的列表：它們不能被修改，沒有append()方法。但是這些數據類型（dict_keys，dict_values和dict_items，分別地）可以被用於for環路。要了解這些方法如何工作，請在交互式shell中輸入以下內容：
+
+
+>>> spam = {'color'：'red'，'age'：42} 
+>>> for v in spam.values（）：
+        print（v）
+
+紅
+42
+這裡，for循環遍歷spam字典中的每個值。一for環還可以重複鍵或兩個鍵和值：
+
+
+>>> for k in spam.keys（）：
+        print（k）
+
+顏色
+年齡
+>>> 為我在spam.items（）：
+        print（i）
+
+（'紅色'）
+（'年齡'，42歲）
+使用keys()，values()以及items()方法中，for環可以分別遍歷鍵，值或鍵-值對的字典。請注意，方法dict_items返回值的值items()是鍵和值的元組。
+
+如果你想從這些方法之一的真實列表，傳遞其類似列表的返回值到該list()函數。在交互式shell中輸入以下內容：
+
+
+>>> spam = {'color'：'red'，'age'：42} 
+>>> spam.keys（）
+dict_keys（['color'，'age']）
+>>> list（spam.keys（）） 
+['color'，'age']
+該list(spam.keys())行將dict_keys返回的值keys()傳遞給它list()，然後返回一個列表值['color', 'age']。
+
+您還可以使用for循環中的多個分配技巧將鍵和值分配給單獨的變量。在交互式shell中輸入以下內容：
+
+
+>>> spam = {'color'：'red'，'age'：42} 
+>>> for k，v in spam.items（）：
+        print（'Key：'+ k +'Value：'+ str v））
+
+關鍵：年齡值：42
+關鍵：顏色值：紅色
+檢查字典中是否存在鍵或值
+
+從上一章可以看出in，not in運算符可以檢查列表中是否存在值。您還可以使用這些運算符來查看字典中是否存在某個鍵或值。在交互式shell中輸入以下內容：
+
+
+>>> spam = {'name'：'Zophie'，'age'：7} 
+>>> 'spam'的'name'（）
+真正
+>>> 'Zophie'in spam.values（）
+真正
+>>> 'color'in spam.keys（）
+假
+>>> 'color'不在spam.keys（）
+真正
+>>> 垃圾郵件'顏色' 
+假
+在前面的例子中，通知'color' in spam本質上是一個較短的寫作版本'color' in spam.keys()。總是這樣的情況：如果您想要檢查字典中是否（或不是）一個鍵，則可以使用in（或not in）關鍵字與字典值本身。
+
+get（）方法
+
+在訪問該密鑰的值之前，檢查字典中是否存在密鑰是乏味的。幸運的是，字典有一個get()方法，它有兩個參數：要檢索的值的鍵和返回的返回值，如果該鍵不存在。
+
+在交互式shell中輸入以下內容：
+
+
+>>> picnicItems = {'apples'：5，'cups'：2} 
+>>> '我帶來'+ str（picnicItems.get（'cups'，0））+'cups。
+“我要帶2杯。”
+>>> '我帶來'+ str（picnicItems.get（'雞蛋'，0））+'雞蛋'。
+“我帶來了0個蛋”。
+因為字典中沒有'eggs'鍵，方法返回picnicItems默認值。沒有使用，代碼將導致錯誤消息，例如在以下示例中：0get()get()
+
+
+>>> picnicItems = {'apples'：5，'cups'：2} 
+>>> '我帶來'+ str（picnicItems ['雞蛋]）+'雞蛋'。
+追溯（最近呼叫最後）：
+  文件“<pyshell＃34>”，第1行，在<module>中
+    '我正在帶''''''''''''''''''''''''''
+KeyError：'egg'
+setdefault（）方法
+
+您通常必須為特定鍵的字典設置一個值，只有該鍵尚未具有值。代碼看起來像這樣：
+
+
+spam = {'name'：'Pooka'，'age'：5}
+如果“顏色”不在垃圾郵件中：
+    垃圾郵件['color'] ='黑色'
+該setdefault()方法提供了一行代碼中的方法。傳遞給該方法的第一個參數是檢查的關鍵，第二個參數是該鍵不存在時設置的值。如果鍵確實存在，該setdefault()方法返回鍵的值。在交互式shell中輸入以下內容：
+
+
+>>> spam = {'name'：'Pooka'，'age'：5} 
+>>> spam.setdefault（'color'，'black'）
+'黑色'
+>>> 垃圾郵件
+{'color'：'black'，'age'：5，'name'：'Pooka'}
+>>> spam.setdefault（'color'，'white'）
+'黑色'
+>>> spam 
+{'color'：'black'，'age'：5，'name'：'Pooka'}
+第一次setdefault()被調用，字典在spam更改{'color': 'black', 'age': 5, 'name': 'Pooka'}。該方法返回值，'black'因為這是現在為鍵設置的值'color'。何時spam.setdefault('color', 'white')調用next，該鍵的值不會更改為'white'因為spam已經有一個命名的鍵'color'。
+
+該setdefault()方法是確保鍵存在的一個很好的快捷方式。這是一個簡短的程序，用於計算字符串中每個字母的出現次數。打開文件編輯器窗口並輸入以下代碼，將其保存為characterCount.py：
+
+
+訊息=“四月是一個明亮的寒冷的日子，時鐘十三分鐘。”
+count = {}
+
+消息中的字符：
+    count.setdefault（character，0）
+    count [character] = count [character] + 1
+
+打印（計數）
+該程序循環message變量字符串中的每個字符，計算每個字符出現的頻率。所述setdefault()方法調用確保了關鍵是在count詞典（具有默認值0）所以程序執行時不會發生KeyError錯誤count[character] = count[character] + 1。當您運行此程序時，輸出將如下所示：
+
+
+{''：13，'，'：1，'。'：1，'A'：1，'I'：1，'a'：4，'c'：3，'b' '：5，'d'：3，'g'：2，'我'
+6，'h'：3，'k'：2，'l'：3，'o'：2，'n'：4，'p'：1，'s'：3，'r' 't'：6，'w'：2，'y'：1}
+從輸出中可以看到小寫字母c出現3次，空格字符出現13次，大寫字母A出現1次。這個程序無論什麼字符串在message變量裡面都工作，即使字符串數百萬個字符長！
+
+漂亮的印刷
+
+如果將pprint模塊導入到程序中，您將可以訪問pprint()和pformat()“打印”字典值的功能。當您希望更清晰地顯示詞典中的項目時，這是有幫助的print()。修改以前的characterCount.py程序並將其保存為prettyCharacterCount.py。
+
+
+導入打印
+訊息=“四月是一個明亮的寒冷的日子，時鐘是驚人的
+十三。'
+count = {}
+
+消息中的字符：
+    count.setdefault（character，0）
+    count [character] = count [character] + 1
+
+pprint.pprint（count）
+這一次，當程序運行時，輸出看起來更清潔，鍵被排序。
+
+
+{''：13，
+ '，'：1，
+ '。'：1，
+ 'A'：1，
+ '我'：1，
+ 'a'：4，
+ 'b'：1，
+ 'c'：3，
+ 'd'：3，
+ 'e'：5，
+ 'g'：2，
+ 'h'：3，
+ '我'：6，
+ 'k'：2，
+ 'l'：3，
+ 'n'：4，
+ 'o'：2，
+ 'p'：1，
+ 'r'：5，
+ 's'：3，
+ 't'：6，
+ 'w'：2，
+ 'y'：1}
+pprint.pprint()當字典本身包含嵌套列表或字典時，該功能特別有用。
+
+如果您想獲得精美的文本作為字符串值，而不是在屏幕上顯示，請調用pprint.pformat()。這兩行相當於彼此：
+
+
+pprint.pprint（someDictionaryValue）
+打印（pprint.pformat（someDictionaryValue））
+
+到有西洋棋盤圖片前
